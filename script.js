@@ -1,8 +1,8 @@
 const properties = [
   {
     title: 'Sunrise Villa',
-    location: 'Shatrasri Colony, North',
-    rent: '₹6,000 / month',
+    location: 'Shradha Shree Colony',
+    rent: '₹7,000 / month',
     type: '1 RK',
     image: 'WhatsApp Image 2026-10-29 at 11.02.58 PM.jpeg',
     phone: '+91 79998 04869',
@@ -11,8 +11,8 @@ const properties = [
   },
   {
     title: 'Green Park Rooms',
-    location: 'Shatrasri Colony, North',
-    rent: '₹4,000 / month',
+    location: 'Shradha Shree Colony',
+    rent: '₹7,000 / month',
     type: 'Single Room',
     image: 'WhatsApp Image 2026-10-29 at 11.02.59 PM.jpeg',
     phone: '+91 79998 04869',
@@ -21,7 +21,7 @@ const properties = [
   },
   {
     title: 'Lake View House',
-    location: 'Shatrasri Colony, North',
+    location: 'Shradha Shree Colony',
     rent: '₹7,000 / month',
     type: '1 BHK',
     image: 'WhatsApp Image 2026-10-29 at 11.03.12 PM.jpeg',
