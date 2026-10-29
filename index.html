@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeNest Rentals</title>
+    <meta
+      name="description"
+      content="Find the best rental homes and rooms with rates, photos, and contact details."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <span class="brand-mark">H</span>
+          <div>
+            <strong>HomeNest</strong>
+            <small>Rental Homes</small>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#properties">Properties</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="nav-cta" href="#contact">Book a Visit</a>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Find your next place</span>
+            <h1>Comfortable homes and rooms for rent.</h1>
+            <p>
+              Explore verified homes, affordable rooms, and comfortable living spaces
+              with updated rental rates and easy contact options.
+            </p>
+
+            <div class="search-panel">
+              <input
+                id="searchInput"
+                type="text"
+                placeholder="Search by location or property name..."
+                aria-label="Search property"
+              />
+              <button type="button">Search</button>
+            </div>
+
+            <div class="quick-stats" aria-label="Quick statistics">
+              <div>
+                <strong>120+</strong>
+                <span>Properties</span>
+              </div>
+              <div>
+                <strong>4.8/5</strong>
+                <span>Customer Rating</span>
+              </div>
+              <div>
+                <strong>24/7</strong>
+                <span>Support</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Featured rental property">
+            <img
+              src="WhatsApp Image 2026-10-29 at 11.03.13 PM.jpeg"
+              alt="Featured rental home exterior"
+            />
+            <div class="mini-card">
+              <span>Featured</span>
+              <strong>Royal Comfort House</strong>
+              <small>₹18,000 / month</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="properties" class="listings">
+        <div class="container section-heading">
+          <div>
+            <span class="eyebrow accent">Available Listings</span>
+            <h2>Homes and rooms ready to move in</h2>
+          </div>
+        </div>
+
+        <div class="container property-grid" id="propertyGrid" aria-live="polite"></div>
+      </section>
+
+      <section id="about" class="why-us">
+        <div class="container">
+          <div class="section-heading narrow">
+            <span class="eyebrow accent">Why choose us</span>
+            <h2>Clean spaces, fair pricing, and trusted support.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-box">
+              <h3>Verified houses</h3>
+              <p>Each listing is reviewed for safety, convenience, and room quality.</p>
+            </article>
+            <article class="feature-box">
+              <h3>Transparent rates</h3>
+              <p>Rental prices are clearly displayed for all rooms and homes.</p>
+            </article>
+            <article class="feature-box">
+              <h3>Fast assistance</h3>
+              <p>Call or WhatsApp us anytime to schedule a visit or get details.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">H</span>
+            <div>
+              <strong>HomeNest</strong>
+              <small>Rental Homes</small>
+            </div>
+          </div>
+          <p>Affordable homes and rooms for families, students, and working professionals.</p>
+        </div>
+
+        <div>
+          <h3>Contact numbers</h3>
+          <ul class="contact-list">
+            <li><a href="tel:+917999804869">+91 79998 04869</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Room rates</h3>
+          <ul class="rates-list">
+            <li>Single Room: ₹4,000</li>
+            <li>1 RK: ₹6,000</li>
+            <li>1 BHK: ₹7,000</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 HomeNest Rentals. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
